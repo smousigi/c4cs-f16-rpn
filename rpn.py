@@ -29,6 +29,13 @@ def calculate(myarg):
 		raise TypeError("Too many parameters")
 	return stack.pop()
 
+def print_stuff():
+	print("this")
+	print("does")
+	print("not")
+	print("do")
+	print("anything!")
+
 def main():
 	while True:
 		result = calculate(input("rpn calc> "))
